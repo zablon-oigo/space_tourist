@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body class="text-white min-h-screen  bg-clip-padding bg-no-repeat bg-cover sm:bg-center" style="background-image: url('assets/home/background-home-desktop.jpg'); ">
+    <header class="p-6 z-10 sticky text-white">
+        <nav class="max-w-6xl mx-auto flex items-center justify-between">
+            <div class="">
+                <div class="w-full">
+                    <a href="" class="">
+                        <img src="./assets/shared/logo.svg" class="sm:w-full sm:m-2" alt="">
+                    </a>
+                </div>
+                
+            </div>
+            <button class="sm:hidden block " id="openBtn">
+                <img src="./assets/shared/icon-hamburger.svg" alt="" class="">
+            </button>
+            <hr class="w-3/4 -mr-10 ml-8 border  border-opacity-20  border-gray-400 sm:block hidden">
+            <div class="hidden sm:block w-full  mx-4 backdrop-blur-md bg-white/30 px-8 py-6  rounded-lg bg-opacity-20 shadow-2xl">
+               <div class="w-full space-x-6 ">
+                <a href="#" class="text-lg font-semibold border-b-2 pb-6 border-white">00 <span class="opacity-50  m-1 uppercase">Home</span></a>
+                <a href="destination-mars.html" class="text-lg font-medium">01 <span class="opacity-50  m-1 uppercase">Destination</span></a>
+                <a href="crew-engineer.html" class="text-lg font-semibold">02 <span class="opacity-50  m-1 uppercase">Crew</span></a>
+                <a href="technology-vehicle.html" class="text-lg font-semibold">03 <span class="opacity-50  m-1 uppercase">Technology</span></a>
+               </div>
+            </div>
+        </nav>
+        <section class="hidden flex-col bg-black bg-opacity-70 w-full absolute top-0 right-0 min-h-screen" id="menu">
+            <div class="w-1/2 bg-white min-h-screen absolute top-0 right-0">
+                <button class=" absolute top-4 right-4 m-2" id="closeBtn">
+                    <img src="./assets/shared/icon-close.svg" alt="" class="">
+                </button>
+                <div class="my-16 mx-28">
+                    <ul class="space-y-6 ">
+                        <li class=""><a href="#" class="text-xl text-gray-600">Home</a></li>
+                        <li class=""><a href="destination-mars.html" class="text-xl text-gray-600">Destination</a></li>
+                        <li class=""><a href="crew-engineer.html" class="text-xl text-gray-600">Crew</a></li>
+                        <li class=""><a href="technology-vehicle.html" class="text-xl text-gray-600">Technology</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="max-w-5xl mx-auto">
+        <section class="my-40 flex items-center flex-col sm:flex-row justify-between ">
+            <div class="sm:w-1/2 w-full mb-10">
+                <h2 class="text-xl text-center sm:text-start uppercase mb-4 opacity-80">So, you want to travel to</h2>
+                <h2 class="text-8xl text-center sm:text-start uppercase mb-8">Space</h2>
+                <p class="text-lg font-light opacity-70 text-center sm:text-start">
+                    Let’s face it; if you want to go to space, you might as well genuinely go to 
+                    outer space and not hover kind of on the edge of it. Well sit back, and relax 
+                    because we’ll give you a truly out of this world experience!
+                </p>
+            </div>
+            <div class="sm:w-1/2 w-full ">
+                <div class="w-full flex flex-col   items-center sm:flex-row justify-end  sm:my-16 sm:mx-6">
+                    <div class=" bg-white rounded-full h-48 w-48 flex items-center justify-center">
+                        <p class="text-xl font-semibold text-gray-800 uppercase">Explore</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+   </body> 
+</html> 

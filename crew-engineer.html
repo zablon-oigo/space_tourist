@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="src/styles.css"> 
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="bg-clip-padding " style="background-image: url('./assets/crew/background-crew-desktop.jpg');">
+  <header class="p-6 z-10 sticky text-white">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between">
+        <div class="">
+            <div class="w-full">
+                <a href="" class="">
+                    <img src="./assets/shared/logo.svg" class="sm:w-full sm:m-2" alt="">
+                </a>
+            </div>
+            
+        </div>
+        
+            
+        <button class="sm:hidden block " id="openBtn">
+            <img src="./assets/shared/icon-hamburger.svg" alt="" class="">
+        </button>
+        <hr class="w-3/4 -mr-10 ml-8 border  border-opacity-20  border-gray-400 sm:block hidden">
+        <div class="hidden sm:block w-full  mx-4 backdrop-blur-lg bg-white/5 px-8 py-6  rounded-lg bg-opacity-20 shadow-2xl">
+           <div class="w-full space-x-6 ">
+            <a href="index.html" class="text-lg font-semibold">00 <span class="opacity-50  m-1 uppercase">Home</span></a>
+            <a href="destination-mars.html" class="text-lg font-semibold">01 <span class="opacity-50  m-1 uppercase">Destination</span></a>
+            <a href="#" class="text-lg font-semibold border-b-2 pb-6 border-white">02 <span class="opacity-50  m-1 uppercase">Crew</span></a>
+            <a href="technology-vehicle.html" class="text-lg font-semibold">03 <span class="opacity-50  m-1 uppercase">Technology</span></a>
+           </div>
+        </div>
+    </nav>
+    <section class="hidden flex-col bg-black bg-opacity-70 w-full absolute top-0 right-0 min-h-screen" id="menu">
+      <div class="w-1/2 bg-white min-h-screen absolute top-0 right-0">
+          <button class=" absolute top-4 right-4 m-2" id="closeBtn">
+              <img src="./assets/shared/icon-close.svg" alt="" class="">
+          </button>
+          <div class="my-16 mx-28">
+              <ul class="space-y-6 ">
+                  <li class=""><a href="#" class="text-xl text-gray-600">Home</a></li>
+                  <li class=""><a href="destination-mars.html" class="text-xl text-gray-600">Destination</a></li>
+                  <li class=""><a href="crew-engineer.html" class="text-xl text-gray-600">Crew</a></li>
+                  <li class=""><a href="technology-vehicle.html" class="text-xl text-gray-600">Technology</a></li>
+              </ul>
+          </div>
+      </div>
+  </section>
+  </header>
+<main class="">
+  <section class="max-w-5xl mx-auto">
+    <div class="my-10 flex  justify-center flex-col sm:flex-row">
+        <div class="sm:w-1/2 w-full my-10">
+          <h2 class="text-gray-500 text-2xl font-semibold mb-20">02 <span class="text-white opacity-70  m-1 uppercase">Meet your crew</span></h2>
+          <h2 class=" text-white text-2xl text-center sm:text-start opacity-70 uppercase mb-2">Flight Engineer</h2>
+          <h2 class=" text-white text-4xl text-center sm:text-start uppercase mb-8 font-medium font-serif">Anousheh Ansari</h2>
+          <div class="mb-8">
+            <p class="text-white text-lg font-light opacity-70 text-center sm:text-start">
+              Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
+              Ansari was the fourth self-funded space tourist, the first self-funded woman to 
+              fly to the ISS, and the first Iranian in space.
+          </p>
+        </div>
+        <div class="sm:mx-0 mx-40">
+          <ul class="sm:space-x-6 space-x-2 flex ">
+            <li class="">
+              <div class="">
+                <a href="crew-specialist.html" class="">
+                  <button class="w-4 h-4 bg-gray-500 rounded-full">
+                    
+                  </button>    
+                </a>
+                
+                </a>
+              </div>
+            </li>
+           <li class="">
+            <div class="">
+              <a href="crew-pilot.html" class="">
+              <button class="w-4 h-4 bg-gray-500 rounded-full">
+    
+              </button>
+            </a>
+             </div>
+           </li>
+            <li class="">
+              <div class="">
+
+                <a href="crew-commander.html" class="">
+                  <button class="w-4 h-4 bg-gray-500 rounded-full"></button>
+                </a>
+              </div>
+            </li>
+                <li class="">
+                  <div class="">
+                    <a href="crew-engineer.html" class="">
+                      <button class="w-4 h-4 bg-white rounded-full"></button>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+        </div>
+      </div>
+      <div class="sm:w-1/2 w-full my-16">
+        <img src="./assets/crew/image-anousheh-ansari.png" alt="" class="">
+      </div>
+    </div>
+  </section>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
